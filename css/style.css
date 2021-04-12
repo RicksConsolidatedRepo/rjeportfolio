@@ -1,0 +1,168 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ nav ul a:hover{
+   background-color: rgba(0, 0, 0, 0.1);
+ }
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+  /*text-align: justify;*/
+}
+
+/*
+.button-collapse {
+  color: #26a69a;
+}*/
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+  .anchor {
+    padding-top: 64px;
+    margin-top: -64px;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+  .anchor {
+    padding-top: 56px;
+    margin-top: -56px;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+  .anchor {
+    padding-top: 56px;
+    margin-top: -56px;
+  }
+}
+.icon-block {
+  /*padding: 0 15px;*/
+  height: inherit;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+/*************************************************************************/
+.nav-wrapper li:hover,
+.side-nav li:hover,
+.dropdown-content li:hover,
+.nav-wrapper li.active a,
+.side-nav li.active a,
+.dropdown-content li.active a {
+  background-color: #26a69a;
+}
+
+.dropdown-content {
+  border: 1px solid white;
+}
+.mylogo {
+  max-width: 80px;
+  max-height:100%;
+  vertical-align: middle;
+}
+.bullet-icon{
+  margin-right: 0.75em;
+}
+.bullet-icon-text {
+  /*margin-right: 0.75em;*/
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow-x: hidden;
+}
+
+.card {
+  border-radius: 5px !important;
+}
+.card:hover {
+  box-shadow: 0 0 5px 5px  #26a69a;
+}
+.myicon {
+  max-width: 100%;
+}
+.languages i{
+  font-size: 5em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
+}
+.myquote {
+  text-shadow: 2px 2px black;
+}
+.myavatar {
+  max-height: 243px;
+  /*max-height: calc(271px - (271px * .1));
+  max-width: calc(271px - (271px * .1));*/
+}
+.img-box {
+    position:relative;
+    min-width: 271px;
+    min-height:271px;
+    display: flex;
+}
+.img-box-contents {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 10%;
+}
+.img-box-image {
+  max-height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.justify {
+  text-align: justify;
+}
+
+.popover-img {
+  display: none;
+}
+
+.popover-container:hover {
+  .popover-img {
+    display: block;
+  }
+}
